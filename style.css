@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; scroll-behavior: smooth; text-decoration: none; border: none; outline: none; }
+
+:root { --bg-color: #081b29; --second-bg-color: #112e42; --text-color: #ededed; --main-color: #00abf0; }
+
+
+html { font-size: 62.5%; overflow-x: hidden; }
+body { background: var(--bg-color); color: var(--text-color); }
+
+/* Sticky Navbar Fix */
+.header { position: fixed; top: 0; left: 0; width: 100%; padding: 1.5rem 9%; background: rgba(8, 27, 41, 0.98); display: flex; justify-content: space-between; align-items: center; z-index: 1000; border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+.logo { font-size: 2.2rem; color: var(--text-color); font-weight: 700; }
+.logo span { color: var(--main-color); }
+.navbar a { font-size: 1.7rem; color: var(--text-color); margin-left: 3.5rem; transition: .3s; }
+.navbar a:hover, .navbar a.active { color: var(--main-color); }
+
+
+/* PC Spacing Fix (Protiti section er gap komano hoyeche) */
+section { min-height: auto; padding: 8rem 9% 4rem; text-align: center; }
+
+.heading { font-size: 4.5rem; margin-bottom: 3rem; }
+.heading span { color: var(--main-color); }
+
+
+
+
+
+.icon-wold{
+ font-size: 30px;
+ padding: 0px 7px 7px 7px;   
+}
+
+
+/* Home Section Alignment */
+.home { display: flex; align-items: center; justify-content: center; gap: 5rem; padding-top: 12rem; }
+.home-content { text-align: left; max-width: 60rem; }
+.home-content h1 { font-size: 5rem; line-height: 1.2; }
+.home-img img { width: 25vw; border-radius: 50%; border: 4px solid var(--main-color); box-shadow: 0 0 2rem var(--main-color); }
+
+/* About Me Content */
+.about-content p { font-size: 1.7rem; line-height: 1.8; max-width: 80rem; margin: 0 auto; color: #d1d1d1; }
+
+/* Skills Slider */
+.slider { height: 120px; margin: auto; overflow: hidden; width: 100%; position: relative; }
+.slide-track { display: flex; width: calc(250px * 10); animation: scroll 20s linear infinite; }
+.slide { width: 250px; text-align: center; }
+.slide i { font-size: 5rem; color: var(--main-color); }
+.slide p { font-size: 1.6rem; margin-top: 10px; }
+@keyframes scroll { 0% { transform: translateX(0); } 100% { transform: translateX(calc(-250px * 5)); } }
+
+/* Projects Grid Fix */
+.projects-container { display: grid; grid-template-columns: repeat(2, 1fr); gap: 3rem; max-width: 1100px; margin: 0 auto; }
+.project-box { background: #fff; color: #333; border-radius: 1.5rem; overflow: hidden; text-align: left; transition: .4s; box-shadow: 0 10px 20px rgba(0,0,0,0.3); }
+.project-box img { width: 100%; height: 200px; object-fit: cover; }
+.project-info { padding: 2rem; }
+.project-info h3 { font-size: 2.2rem; color: #081b29; margin-bottom: 1rem; }
+.tech-tags span { background: #e3e6f3; padding: 0.5rem 1rem; border-radius: 0.5rem; font-size: 1.2rem; font-weight: 600; margin-right: 0.5rem; }
+.project-btns { display: flex; gap: 1.5rem; margin-top: 2rem; }
+.btn-live { background: #6f42c1; color: #fff; padding: 0.8rem 1.5rem; border-radius: 0.8rem; font-size: 1.4rem; }
+.btn-code { background: #555; color: #fff; padding: 0.8rem 1.5rem; border-radius: 0.8rem; font-size: 1.4rem; }
+
+/* Contact Section & Form Fix */
+.contact-container { display: flex; flex-direction: column; align-items: center; gap: 4rem; margin-top: 2rem; }
+.contact-info { display: flex; justify-content: center; gap: 3rem; flex-wrap: wrap; }
+.info-card { background: var(--second-bg-color); padding: 2rem; border-radius: 1.5rem; width: 280px; text-align: center; }
+.info-card i { font-size: 3rem; color: var(--main-color); margin-bottom: 1rem; }
+.info-card p { font-size: 1.4rem; }
+
+.contact-form-card { 
+    position: relative; max-width: 60rem; width: 100%; padding: 3rem; 
+    background: var(--second-bg-color); border-radius: 2rem; overflow: hidden; 
+}
+.contact-form-card::before {
+    content: ''; position: absolute; top: -50%; left: -50%; width: 200%; height: 200%;
+    background: conic-gradient(transparent, transparent, transparent, var(--main-color));
+    animation: rotate 4s linear infinite;
+}
+.contact-form-card::after { content: ''; position: absolute; inset: 4px; background: var(--second-bg-color); border-radius: 1.8rem; z-index: 1; }
+@keyframes rotate { 100% { transform: rotate(360deg); } }
+
+form { position: relative; z-index: 10; display: flex; flex-direction: column; gap: 2rem; }
+.input-box { display: flex; gap: 2rem; }
+.input-box input { width: 50%; }
+input, textarea { padding: 1.5rem; background: var(--bg-color); color: #fff; font-size: 1.6rem; border-radius: 1rem; }
+
+.btn { display: inline-block; padding: 1.2rem 2.8rem; background: var(--main-color); border-radius: 4rem; color: var(--bg-color); font-weight: 600; font-size: 1.6rem; transition: .5s; cursor: pointer; }
+.footer { padding: 2rem; background: var(--second-bg-color); font-size: 1.6rem; margin-top: 3rem; }
+
+@media (max-width: 991px) {
+    .projects-container { grid-template-columns: 1fr; }
+    .home { flex-direction: column; text-align: center; }
+    .input-box { flex-direction: column; }
+    .input-box input { width: 100%; }
+}
+

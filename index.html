@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>MD MONIRUJJAMAN | Professional Portfolio</title>      
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #0f172a;
+            overflow: hidden;
+        }
+
+        /* Logo Animation Section */
+        .logo-section {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #0f172a;
+            z-index: 100;
+            animation: slideUp 1s ease-in-out 4s forwards;
+        }
+
+        svg {
+            width: 600px; /* Aro boro kora */
+            height: auto;
+        }
+
+        .animated-path {
+            fill: transparent;
+            stroke: #55AEFE;
+            stroke-width: 2;
+            stroke-dasharray: 2000;
+            stroke-dashoffset: 2000;
+            animation: drawLine 3s ease-in-out forwards, 
+                       fillIn 1.5s ease-in-out 2.5s forwards;
+        }
+
+        /* Line Drawing Animation */
+        @keyframes drawLine {
+            to {
+                stroke-dashoffset: 0;
+            }
+        }
+
+        /* Color Filling Animation */
+        @keyframes fillIn {
+            to {
+                fill: #55AEFE;
+                stroke-width: 0;
+            }
+        }
+
+        /* Logo section slide up */
+        @keyframes slideUp {
+            to {
+                transform: translateY(-100%);
+            }
+        }
+
+        /* Main Content Section */
+        .content-section {
+            position: relative;
+            top: 100vh;
+            width: 100%;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 50px;
+            color: white;
+            z-index: 50;
+            animation: contentReveal 1s ease-in-out 4s forwards;
+        }
+
+        @keyframes contentReveal {
+            to {
+                top: 0;
+            }
+        }
+
+        /* Content Styling */
+        .content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            margin-bottom: 30px;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            margin-bottom: 25px;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .feature-card {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            background: rgba(255, 255, 255, 0.25);
+        }
+
+        .feature-card h3 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            color: #fff;
+        }
+
+        .feature-card p {
+            font-size: 1rem;
+            color: #e6e6e6;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Logo Animation Section -->
+    <div class="logo-section">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+            <path class="animated-path" d="M0 0 C3.9242181 3.64095588 6.75128629 7.46349156 9.5 12.0625 C10.38108878 13.50365942 11.26398658 14.943714 12.1484375 16.3828125 C12.61217773 17.13852539 13.07591797 17.89423828 13.55371094 18.67285156 C16.01581479 22.63449469 18.57194517 26.53409165 21.125 30.4375 C26.12599379 38.09807247 31.07602102 45.78970639 36 53.5 C42.45382053 63.60233522 48.96468129 73.66578564 55.50927734 83.70947266 C58.3343973 88.05033008 61.14847297 92.3983549 63.95581055 96.75073242 C66.31763743 100.41071576 68.69481538 104.05952069 71.09375 107.6953125 C71.60083496 108.46786377 72.10791992 109.24041504 72.63037109 110.03637695 C73.60268935 111.51708965 74.57935517 112.99495969 75.56103516 114.46948242 C75.99722168 115.13568604 76.4334082 115.80188965 76.8828125 116.48828125 C77.26840332 117.07134033 77.65399414 117.65439941 78.05126953 118.25512695 C79.08020887 120.14751745 79.56583252 121.89748777 80 124 C78.14690227 124.19778547 76.29242889 124.38269708 74.4375 124.5625 C72.88869141 124.71912109 72.88869141 124.71912109 71.30859375 124.87890625 C64.64681054 125.12272594 64.64681054 125.12272594 61 124 C58.49609642 121.40038568 56.76405003 118.41101837 54.9375 115.3125 C54.38658691 114.42199951 53.83567383 113.53149902 53.26806641 112.61401367 C52.09607484 110.71931049 50.93288209 108.8191409 49.77783203 106.9140625 C46.88215222 102.16772437 43.87150889 97.4955483 40.875 92.8125 C39.69481703 90.95474175 38.51512201 89.09667342 37.3359375 87.23828125 C33.98450249 81.96641471 30.59272605 76.72155815 27.18969727 71.48291016 C23.98153643 66.53653079 20.81186593 61.56657627 17.65332031 56.58837891 C14.77611356 52.05429792 11.8902087 47.52580203 9 43 C8.54866699 42.29214355 8.09733398 41.58428711 7.63232422 40.85498047 C6.51298995 39.10643726 5.38211614 37.36529468 4.25 35.625 C3.36054688 34.25214844 3.36054688 34.25214844 2.453125 32.8515625 C1.97359375 32.24054688 1.4940625 31.62953125 1 31 C0.34 31 -0.32 31 -1 31 C-2.31998017 32.52838563 -2.31998017 32.52838563 -3.6171875 34.55859375 C-4.13522949 35.32792236 -4.65327148 36.09725098 -5.18701172 36.88989258 C-5.74404785 37.73060303 -6.30108398 38.57131348 -6.875 39.4375 C-8.06137243 41.20127979 -9.24889468 42.96428667 -10.4375 44.7265625 C-11.03691406 45.61762695 -11.63632813 46.50869141 -12.25390625 47.42675781 C-14.74177619 51.0931657 -17.30344586 54.70453692 -19.875 58.3125 C-24.49858544 64.8202544 -29.01535095 71.39583122 -33.5 78 C-38.23817545 84.97591745 -43.01159909 91.92317569 -47.875 98.8125 C-48.38095703 99.52986328 -48.88691406 100.24722656 -49.40820312 100.98632812 C-52.86616443 105.86616443 -52.86616443 105.86616443 -54 107 C-47.13887336 107.5118598 -40.28270926 107.85905194 -33.40673828 108.09863281 C-31.0754427 108.19855008 -28.74538024 108.33457388 -26.41845703 108.50878906 C-13.32791995 109.80330564 -13.32791995 109.80330564 -1.59811401 105.10534668 C2.66838739 100.40618821 5.73922345 95.13782606 8.6441803 89.5223999 C10.69041939 85.71552699 13.17151608 82.25598533 15.6875 78.75 C16.0842392 78.16321472 16.48097839 77.57642944 16.88973999 76.97186279 C18.01171875 75.359375 18.01171875 75.359375 20 73 C20.99 73 21.98 73 23 73 C24.859375 75.1953125 24.859375 75.1953125 26.75 78.125 C27.70132813 79.55199219 27.70132813 79.55199219 28.671875 81.0078125 C30.33789 84.76124628 30.31779328 86.11395267 29 90 C27.23930379 92.94583838 25.20624696 95.64933025 23.125 98.375 C22.04175953 99.81843127 20.96114483 101.26383586 19.8828125 102.7109375 C19.00851845 103.83446121 19.00851845 103.83446121 18.11656189 104.98068237 C16.48165795 107.31290536 15.21973506 109.44089702 13.93678284 111.95388794 C8.16052337 122.63944516 8.16052337 122.63944516 2.87699127 124.91392136 C-3.189082 126.32345187 -9.36191103 125.98524474 -15.54296875 125.78125 C-17.52263529 125.77383378 -19.50233982 125.77350087 -21.48200989 125.77990723 C-26.66133819 125.77784132 -31.83452325 125.6803954 -37.0123291 125.56219482 C-42.3080111 125.45846371 -47.60384802 125.44610853 -52.90039062 125.42578125 C-63.269078 125.37265966 -73.63357327 125.21864262 -84 125 C-84 120.08412865 -82.13161336 117.8213895 -79.375 114 C-78.88789551 113.30865967 -78.40079102 112.61731934 -77.89892578 111.9050293 C-76.83738958 110.399381 -75.7719465 108.89648151 -74.703125 107.39599609 C-72.34201649 104.0743334 -70.01031171 100.73240891 -67.67675781 97.39135742 C-65.87580388 94.81365059 -64.07109327 92.23860887 -62.265625 89.6640625 C-59.00240049 85.00736299 -55.76290711 80.33491775 -52.53125 75.65625 C-49.77485509 71.66965199 -47.00351091 67.69347729 -44.23388672 63.71606445 C-38.97026723 56.15699988 -33.70867254 48.59706384 -28.5 41 C-19.0876706 27.27293123 -9.55138956 13.63055167 0 0 Z" transform="translate(217,188)"/>
+            
+            <path class="animated-path" d="M0 0 C3.2074247 3.05564837 5.44831091 6.59343553 7.8125 10.3125 C8.5250293 11.42334961 8.5250293 11.42334961 9.25195312 12.55664062 C10.83935257 15.03478159 12.4203605 17.51690604 14 20 C14.84377197 21.32523682 14.84377197 21.32523682 15.70458984 22.67724609 C18.07320186 26.39821425 20.4408735 30.11977449 22.8059082 33.84301758 C26.78020872 40.09672027 30.78947088 46.32634443 34.82519531 52.54052734 C38.50328285 58.21235703 42.12907745 63.91655085 45.75 69.625 C50.65173923 77.35020042 55.61509104 85.03204582 60.625 92.6875 C63.0858585 96.45669143 65.54368377 100.22784716 68 104 C68.60811523 104.93231445 69.21623047 105.86462891 69.84277344 106.82519531 C71.57070272 109.48203845 73.28709021 112.14595621 75 114.8125 C75.52287598 115.61324951 76.04575195 116.41399902 76.58447266 117.23901367 C77.05159668 117.97095947 77.5187207 118.70290527 78 119.45703125 C78.4125 120.09616455 78.825 120.73529785 79.25 121.39379883 C79.4975 121.92384521 79.745 122.4538916 80 123 C79.67 123.66 79.34 124.32 79 125 C76.13646462 125.10302667 73.3011208 125.13392789 70.4375 125.125 C69.63763672 125.16109375 68.83777344 125.1971875 68.01367188 125.234375 C64.13525521 125.17105391 61.86976381 124.87892736 59.07666016 122.05639648 C57.22895168 119.44269625 55.60206372 116.77054029 54 114 C52.93284373 112.33613509 51.85999238 110.67590797 50.78125 109.01953125 C49.68557348 107.28506967 48.59189511 105.54934457 47.5 103.8125 C42.52085419 95.93726546 37.48042653 88.10644335 32.375 80.3125 C27.32446846 72.59745362 22.34723245 64.8424833 17.44384766 57.03320312 C11.73379439 47.95458732 5.86769716 38.97723385 0 30 C-3.52884071 34.28019675 -6.70154105 38.76813876 -9.875 43.3125 C-13.81733337 48.95376732 -17.83712733 54.51897694 -22 60 C-25.8809456 58.70635147 -26.56689295 57.09296658 -28.75 53.6875 C-29.70132812 52.23923828 -29.70132812 52.23923828 -30.671875 50.76171875 C-32 48 -32 48 -31.73608398 46.06762695 C-30.93099962 43.80618103 -29.92047951 42.12661571 -28.55078125 40.15625 C-27.78302368 39.0427417 -27.78302368 39.0427417 -26.99975586 37.90673828 C-26.44296143 37.11251465 -25.88616699 36.31829102 -25.3125 35.5 C-24.73959229 34.6735498 -24.16668457 33.84709961 -23.57641602 32.99560547 C-21.72338443 30.32633668 -19.86168881 27.66323602 -18 25 C-16.72095213 23.15913344 -15.44230526 21.3179882 -14.1640625 19.4765625 C-12.92239898 17.69234357 -11.68022589 15.90847914 -10.4375 14.125 C-9.56315308 12.86913086 -9.56315308 12.86913086 -8.67114258 11.58789062 C-5.89459698 7.62197503 -3.08991789 3.73207686 0 0 Z" transform="translate(288,188)"/>
+        </svg>
+    </div>
+
+    <!-- Main Content Section -->
+     <header class="header">
+             <a href="#" class="logo">MONIRU<span>JJAMAN</span></a>
+                <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3 style="font-size: 20px;">Hello, It's Me</h3>
+            <h1>MD MONIRUJJAMAN</h1>
+            <h3 style="font-size: 15px;">And I'm a <span style="color:#00abf0 ;" class="text-animate"></span></h3>
+            <p style="font-size: 15px;">I build high-performance, responsive web applications using the MERN stack. Expert in React.js and modern web architectures.</p>
+            
+            <a href="#contact" class="btn">Hire Me</a>
+        </div>
+        <div class="home-img">
+            <img src="image/monir.jpeg" alt="Profile">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span></h2>
+        <div class="about-content">
+            <p style="text-align: left;"><b>Transforming Your Vision into a Digital Reality</b><br>
+Hi, I’m MD Monirujjaman, a dedicated Web Developer focused on crafting seamless, high-performance digital experiences. With a strong foundation in modern web technologies, I specialize in bridging the gap between complex backend logic and elegant frontend design.
+<br>
+<br>
+
+I love solving problems and turning a blank canvas into a functional, revenue-generating tool for my clients. If you're looking for someone who values quality over quantity and meets deadlines consistently, let's talk!</p>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading">Technical <span>Skills</span></h2>
+        <div class="slider">
+            <div class="slide-track">
+                <div class="slide"><i class="fab fa-react"></i><p>React</p></div>
+                <div class="slide"><i class="fab fa-node-js"></i><p>Node.js</p></div>
+                <div class="slide"><i class="fab fa-js"></i><p>JavaScript</p></div>
+                <div class="slide"><i class="fas fa-database"></i><p>MongoDB</p></div>
+                <div class="slide"><i class="fab fa-html5"></i><p>HTML5</p></div>
+                <div class="slide"><i class="fab fa-css3-alt"></i><p>CSS3</p></div>
+                <div class="slide"><i class="fab fa-react"></i><p>React</p></div>
+                <div class="slide"><i class="fab fa-node-js"></i><p>Node.js</p></div>
+                <div class="slide"><i class="fab fa-js"></i><p>JavaScript</p></div>
+                <div class="slide"><i class="fas fa-database"></i><p>MongoDB</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">My <span>Projects</span></h2>
+        <div class="projects-container">
+            <div class="project-box">
+                <img src="image/parcel image.png" alt="Parcel">
+                <div class="project-info">
+                    <h3>Parcel Management</h3>
+                    <p>MERN stack project for parcel tracking and user registration.</p>
+                    <div class="tech-tags"><span>React</span><span>Node</span><span>Firebase</span><span>Tailwind</span><span>MongoDB</span></div>
+                    <div class="project-btns">
+                        <a href="#" class="btn-live">Live Link</a>
+                        <a href="#" class="btn-code">Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-box">
+                <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4" alt="Restaurant">
+                <div class="project-info">
+                    <h3>Restaurant System</h3>
+                    <p>Complete food ordering and menu management application.</p>
+                    <div class="tech-tags"><span>React</span><span>Firebase</span><span>Node</span><span>Tailwind</span><span>ExpressJs</span></div>
+                    <div class="project-btns">
+                        <a href="#" class="btn-live">Live Link</a>
+                        <a href="#" class="btn-code">Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-card">
+                    <i class="fas fa-phone-alt"></i>
+                    <p>+880 14077-52887</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Khulna-9100, Khulna</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-envelope"></i>
+                    <p style="font-size: 11px;text-align: center;"t>contact.mdmonirujjaman7878@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="contact-form-card">
+                <form action="#">
+                    <div class="input-box">
+                        <input type="text" placeholder="Full Name" required>
+                        <input type="email" placeholder="Email Address" required>
+                    </div>
+                    <textarea cols="30" rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <div style="text-align: center;" class="social-media">
+                <a href="#"><i class="fab fa-facebook-f icon-wold"></i></a>
+                <a href="#"><i class="fab fa-github icon-wold"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in icon-wold"></i></a>
+            </div>
+
+    <footer class="footer" style="text-align: center;">
+        <p>Copyright &copy; 2026  MD MONIRUJJAMAN. All Right Reserved </p>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
