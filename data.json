@@ -1,0 +1,157 @@
+{
+  "knowledge_base": [
+    {
+      "keywords": ["hello", "hi", "hey", "সালাম", "assalamu alaikum", "hlw", "hi there", "greetings", "hey aethera", "yo", "আদাব", "nomoshkar", "oi", "ola", "tumi kemon", "howdy", "good morning", "good evening"],
+      "answer": "Hello! I am Aethera, the specialized AI assistant of MD Monirujjaman. I am here to be your guide through Monir's professional world. Whether you want to know about his MERN stack expertise, his latest projects, or just want to say hi, I've got you covered! How can I help you today? আপনি চাইলে বাংলা বা ইংলিশে আমার সাথে কথা বলতে পারেন।"
+    },
+    {
+      "keywords": ["kemon acho", "how are you", "kemon achen", "ki obostha", "ভালো আছ", "কেমন আছো", "how is it going", "how are things", "everything okay", "r u fine", "how's life", "shob thik"],
+      "answer": "I'm doing fantastic! My circuits are buzzing with excitement to showcase Monir's work. I hope you are having a wonderful day too. Is there any specific project or skill you'd like to explore right now?"
+    },
+    {
+      "keywords": ["tumi ke", "who are you", "identity", "intro", "পরিচয়", "তোমার নাম কি", "apni ke", "what is your name", "who am i talking to", "tell me about yourself", "your purpose", "ai name", "robot", "bot"],
+      "answer": "I am Aethera, a smart and interactive AI assistant built exclusively for MD Monirujjaman's portfolio. I don't just provide data; I represent Monir's commitment to innovation and technology. Think of me as his 24/7 digital representative!"
+    },
+    {
+      "keywords": ["monirujjaman ke", "about him", "মনিরুজ্জামান", "মনির", "tell me about monir", "who is md monirujjaman", "monir info", "background", "biography", "developer info", "person behind", "owner"],
+      "answer": "MD Monirujjaman is a dedicated MERN Stack Specialist and a passionate Full Stack Developer from Bangladesh. He doesn't just write code; he crafts digital experiences. With a deep understanding of both frontend aesthetics and backend stability, he helps businesses build products that people love."
+    },
+    {
+      "keywords": ["mern", "specialist", "developer", "expert", "ডেভেলপার", "web dev", "software engineer", "full stack", "programmer", "mern stack", "web development", "coding expert", "it expert"],
+      "answer": "Monir is a specialist in the MERN ecosystem (MongoDB, Express.js, React, and Node.js). He focuses on creating seamless end-to-end web applications. From designing complex database schemas to developing high-performance, interactive user interfaces, he masters the entire development lifecycle."
+    },
+    {
+      "keywords": ["skill", "expertise", "technology", "ki ki jano", "দক্ষতা", "টেকনোলজি", "stack", "coding language", "tools", "library", "framework", "abilities", "technical", "mastery", "knowledge"],
+      "answer": "Monir's technical arsenal is extensive:\n- **Frontend Mastery**: React.js, Next.js, Tailwind CSS, JavaScript (ES6+), HTML5, CSS3.\n- **Backend Power**: Node.js, Express.js, RESTful API design.\n- **Database Management**: MongoDB (NoSQL) and MySQL (SQL) with Drizzle ORM.\n- **Modern Tools**: Firebase, Git/GitHub, Vercel, Netlify, Postman, JWT for security.\n- **Specialized Concepts**: ESR (Edge-Side Rendering), SSR, and high-level State Management."
+    },
+    {
+      "keywords": ["project", "work", "kaaj", "portfolio", "প্রজেক্ট", "কাজ", "list of projects", "built", "showcase", "experience", "past work", "assignments", "live link", "top projects", "demo"],
+      "answer": "Monir has successfully delivered over 10+ high-impact projects. Some of the most notable ones include:\n1. **Parcel Management System**: A comprehensive logistics solution built with the MERN stack.\n2. **Restaurant Management System**: A full-featured food ordering and admin dashboard application.\n3. **Smart Portfolio**: This very website, integrated with me, Aethera!\n4. **Personal Blog Platform**: A place where he shares his technical insights.\nYou can check the 'Projects' section for live demos and GitHub repositories."
+    },
+    {
+      "keywords": ["parcel", "tracking", "management project", "delivery app", "parcel management", "courier system", "shipping app", "logistics project", "parcel system"],
+      "answer": "The Parcel Management project is a sophisticated MERN stack application designed for the logistics industry. It features user-friendly booking, real-time parcel tracking, and a robust admin panel for delivery management. It highlights Monir's ability to handle complex data relationships and secure user authentication."
+    },
+    {
+      "keywords": ["restaurant", "food", "ordering system", "khabar", "রেস্টুরেন্ট", "food menu", "restaurant website", "online food", "chef app", "ordering platform", "food system"],
+      "answer": "The Restaurant Management System is a full-stack masterpiece. It allows customers to browse menus, manage their carts, and order food effortlessly. Behind the scenes, it uses Firebase for real-time updates and an Express/Node backend for order processing. It’s a perfect example of his Full-Stack capabilities."
+    },
+    {
+      "keywords": ["service", "offer", "কি কি সার্ভিস দাও", "সেবা", "hire for", "can you build", "services offered", "gig", "freelance work", "job types", "web service", "custom project"],
+      "answer": "Monir offers a wide range of professional services:\n1. **Custom MERN Stack Web Apps**: Tailored solutions for your business.\n2. **React/Next.js Frontend Development**: Building fast, responsive, and SEO-friendly UIs.\n3. **Backend & API Development**: Secure and scalable server-side architecture.\n4. **Database Design**: Optimized SQL and NoSQL database structures.\n5. **Maintenance & Bug Fixing**: Providing ongoing support for existing projects."
+    },
+    {
+      "keywords": ["location", "address", "bashay kothay", "thako kothay", "বাসা", "ঠিকানা", "khulna", "where do you live", "location info", "map", "city", "bangladesh", "khulna address"],
+      "answer": "Monir is proudly based in Khulna, Bangladesh (Postal Code: 9100). While he loves his hometown, he is a global citizen in the digital space, working with clients and teams from all corners of the world through remote collaboration."
+    },
+    {
+      "keywords": ["contact", "phone", "email", "number", "যোগাযোগ", "mobile", "gmail", "whatsapp", "call", "social media", "linkedin", "facebook", "reach out", "message", "contact me"],
+      "answer": "Getting in touch with Monir is easy:\n- **Direct Email**: contact.mdmonirujjaman7878@gmail.com\n- **Mobile/WhatsApp**: +880 14077-52887\n- **Professional Network**: Find him on LinkedIn through the icon in the footer.\n- **Code Base**: Check his GitHub to see his latest commits.\nHe usually responds within a few hours!"
+    },
+    {
+      "keywords": ["blog", "write", "article", "intellij", "nuxt", "mysql", "drizzle", "esr", "পোস্ট", "technical writing", "publication", "learning resources", "content"],
+      "answer": "Monir is a strong believer in sharing knowledge. He regularly writes about modern web trends. His popular articles cover topics like optimizing database queries with Drizzle ORM, mastering the IntelliJ IDEA environment, and exploring the performance benefits of Edge-Side Rendering (ESR). Check the 'Blogs' section for more!"
+    },
+    {
+      "keywords": ["review", "client", "feedback", "rating", "ক্লায়েন্ট", "testimonial", "recommendation", "trust", "reliability", "what people say", "client experience"],
+      "answer": "Quality is Monir's first priority. Clients have praised him for his clear communication and technical prowess. Riya Khan (CEO, Tech Solution) describes him as a 'Developer who truly understands the business logic,' while other international clients admire his ability to deliver pixel-perfect designs."
+    },
+    {
+      "keywords": ["resume", "cv", "hire", "job", "সিভি", "চাকরি", "recruitment", "looking for developer", "cv download", "career", "interview", "hiring", "apply"],
+      "answer": "Looking for a high-performing developer? You can download Monir's Resume from the home page. He is currently open to new opportunities, including full-time roles, freelance projects, and long-term partnerships."
+    },
+    {
+      "keywords": ["experience", "years", "long", "অভিজ্ঞতা", "koto din", "how many years", "work history", "coding journey", "seniority", "history"],
+      "answer": "Monir has been in the professional web development field for over 2 years. In this time, he has evolved from a curious learner to a MERN specialist, successfully completing 10+ projects that demonstrate his growth and expertise in solving real-world problems."
+    },
+    {
+      "keywords": ["price", "cost", "salary", "taka", "টাকা", "চার্জ", "budget", "pricing", "free", "how much", "rate", "quotation", "fee"],
+      "answer": "Every project is unique, and so is the pricing. Monir offers flexible rates based on the project's scope, deadline, and technical requirements. For an accurate quote, feel free to send over your project details via email!"
+    },
+    {
+      "keywords": ["responsive", "mobile friendly", "seo", "optimization", "speed", "fast", "mobile view", "tablet", "user experience", "lighthouse score", "loading speed"],
+      "answer": "Absolutely! Monir ensures that every website is 100% responsive and looks perfect on all devices—from small smartphones to large 4K monitors. He also focuses on SEO best practices and performance optimization to ensure fast loading times and better search rankings."
+    },
+    {
+      "keywords": ["stats", "statistics", "commits", "github", "contribution", "github stats", "activity", "hardworking", "coding streak", "contributions"],
+      "answer": "Consistency is key for Monir. With over 500+ commits on GitHub in the past year, he maintains an active coding presence. This reflects his dedication to staying updated with the latest technologies and improving his craft every single day."
+    },
+    {
+      "keywords": ["education", "study", "university", "porashona", "ডিগ্রি", "লেখাপড়া", "student", "varsity", "academic", "learning", "degree", "school", "college"],
+      "answer": "Monir believes in continuous self-improvement. He is a self-taught specialist who has supplemented his academic foundation with advanced certifications and hands-on project experience in the MERN stack."
+    },
+    {
+      "keywords": ["workflow", "process", "how do you work", "methodology", "steps", "project lifecycle", "working way", "development cycle"],
+      "answer": "Monir follows a structured 5-step workflow:\n1. **Discovery**: Understanding client needs.\n2. **Planning**: Creating wireframes and database schemas.\n3. **Development**: Writing clean, modular code.\n4. **Testing**: Checking for bugs and ensuring responsiveness.\n5. **Deployment**: Launching the project on a live server."
+    },
+    {
+      "keywords": ["database", "mongodb", "mysql", "sql", "nosql", "drizzle", "orm", "data storage", "postgres", "database expert", "schema"],
+      "answer": "Monir is versatile with data. He uses MongoDB for flexible, document-based storage and MySQL/PostgreSQL for structured, relational data. Using Drizzle ORM, he ensures that database interactions are fast, safe, and efficient."
+    },
+    {
+      "keywords": ["why hire", "benefit", "why monir", "best choice", "value", "strengths", "advantage", "hire monir"],
+      "answer": "You should hire Monir because he brings a unique blend of technical expertise, business understanding, and a focus on user experience. He doesn't just deliver a website; he delivers a solution that helps you grow and succeed in the digital landscape."
+    },
+    {
+      "keywords": ["react", "nextjs", "why react", "frameworks", "library", "frontend choice", "hooks", "vdom"],
+      "answer": "Monir loves React for its component-based architecture which makes code reusable and maintainable. For projects that need high performance and SEO, he uses Next.js to leverage Server-Side Rendering (SSR) and static generation."
+    },
+    {
+      "keywords": ["hobby", "life", "interest", "coding chada", "free time", "shokh", "personal", "outside coding", "relax", "fun"],
+      "answer": "When he’s not behind the screen, Monir loves exploring new tech gadgets, reading about AI breakthroughs, and contributing to the open-source community. He believes in maintaining a healthy balance between work and continuous learning."
+    },
+    {
+      "keywords": ["backend", "api", "server", "node", "express", "backend developer", "logic", "security", "jwt", "middleware", "auth"],
+      "answer": "His backend strategy focuses on security and scalability. Using Node.js and Express, he builds robust APIs protected by JWT authentication and middleware, ensuring that user data is always safe."
+    },
+    {
+      "keywords": ["availability", "free time", "can you start", "shuru kora", "kobe theke", "schedule", "timing", "available"],
+      "answer": "Monir is currently accepting new projects! Depending on the complexity, he can usually start within 2-3 business days. Reach out early to secure a slot in his schedule."
+    },
+    {
+      "keywords": ["clean code", "quality", "best practices", "standard", "documentation", "readable code", "coding style"],
+      "answer": "Monir is a firm believer in 'Clean Code.' He follows industry standards like DRY (Don't Repeat Yourself), writing readable and well-documented code that is easy for other developers to understand and maintain."
+    },
+    {
+      "keywords": ["future", "goals", "vision", "upcoming", "next steps", "dream", "career goal"],
+      "answer": "Monir aims to become a Software Architect, designing large-scale systems that impact millions of users. He is constantly learning about Cloud Computing and AI to integrate more intelligence into his web applications."
+    },
+    {
+      "keywords": ["tailwindcss", "css framework", "styling", "bootstrap", "design tool", "ui design"],
+      "answer": "Monir uses Tailwind CSS for rapid and modern UI development. It allows him to create custom designs without writing bulky CSS, ensuring that the final product is lightweight and easy to maintain."
+    },
+    {
+      "keywords": ["javascript", "js", "es6", "vanilla js", "coding basics", "core"],
+      "answer": "JavaScript is the heart of Monir's stack. He is proficient in ES6+ features like async/await, arrow functions, and destructuring, which he uses to write modern and efficient code."
+    },
+    {
+      "keywords": ["hosting", "deployment", "vercel", "netlify", "server setup", "live site"],
+      "answer": "Monir is experienced in deploying applications on platforms like Vercel and Netlify for frontend, and Render or VPS for backend, ensuring that your site is always online and fast."
+    },
+    {
+      "keywords": ["firebase", "authentication", "realtime database", "google services"],
+      "answer": "Monir uses Firebase for quick authentication, real-time database updates, and hosting. It's his go-to solution for projects that require instant data synchronization."
+    },
+    {
+      "keywords": ["git", "github", "version control", "collaborate", "teamwork"],
+      "answer": "Version control is essential. Monir uses Git and GitHub for every project, allowing him to track changes, collaborate with teams, and maintain a professional workflow."
+    },
+    {
+      "keywords": ["rest api", "json data", "fetch", "axios", "data connection"],
+      "answer": "Monir excels at building and consuming RESTful APIs. He uses tools like Axios to fetch data seamlessly between the frontend and backend, ensuring a smooth user experience."
+    },
+    {
+      "keywords": ["challenge", "difficult task", "problem solving", "fixing bugs"],
+      "answer": "Monir thrives on challenges. Whether it's a complex logic error or a styling bug, he uses his analytical skills to find the most efficient solution without compromising quality."
+    },
+    {
+      "keywords": ["language", "vasha", "english", "bengali", "bangla", "communication"],
+      "answer": "Monir is fluent in both Bengali and English. He can communicate complex technical ideas clearly in both languages, making him an excellent choice for international clients."
+    },
+    {
+      "keywords": ["bye", "goodbye", "allah hafiz", "tata", "বিদায়", "পড়ে কথা হবে", "see you", "nice talking", "exit", "closing", "finish"],
+      "answer": "It was a pleasure chatting with you! I hope I was able to answer all your questions about Monir. If you need anything else, just type away. Have a productive and wonderful day ahead!"
+    }
+  ],
+  "default_answer": "I'm sorry, I don't have that specific information in my knowledge base yet. However, you can ask me about Monir's Skills, his Projects like Parcel Management or Restaurant System, his Contact info, or his Blogs! I'm always here to help."
+}

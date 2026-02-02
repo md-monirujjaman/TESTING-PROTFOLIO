@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
-
+<!-- Logo-Animation-Section-css-start -->
+ 
     <style>
         * {
             margin: 0;
@@ -150,6 +151,9 @@
             color: #e6e6e6;
         }
     </style>
+
+    <!-- Logo-Animation-Section-css-End -->
+
 </head>
 <body>
 
@@ -162,31 +166,60 @@
         </svg>
     </div>
 
-    <!-- Main Content Section -->
-     <header class="header">
-             <a href="#" class="logo">MONIRU<span>JJAMAN</span></a>
-                <nav class="navbar">
-            <a href="#home" class="active">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+    <!-- Logo-Animation-Section-End -->
+
+    <!-- Main-Content-Section-Start -->
+    <header class="header">
+    <a href="#" class="logo">MONIRU<span>JJAMAN</span></a>
+
+    <div id="menu-icon">
+        <i class='bx bx-menu'></i>
+    </div>
+
+    <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#servicebar">Service</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+    <!-- Main-Content-Section-End -->
     
     <section class="home" id="home">
         <div class="home-content">
             <h3 style="font-size: 20px;">Hello, It's Me</h3>
-            <h1>MD MONIRUJJAMAN</h1>
+            <h1>MD MONIRU<span style="color: #00abf0;">JJAMAN</span></h1>
             <h3 style="font-size: 15px;">And I'm a <span style="color:#00abf0 ;" class="text-animate"></span></h3>
             <p style="font-size: 15px;">I build high-performance, responsive web applications using the MERN stack. Expert in React.js and modern web architectures.</p>
             
+             <a href="image/MD MONIRUJJAMAN CV.pdf" download="My_CV" class="btn">Resume</a>
+
             <a href="#contact" class="btn">Hire Me</a>
+
         </div>
-        <div class="home-img">
-            <img src="image/monir.jpeg" alt="Profile">
-        </div>
+        
+        <!-- PROTFOLIO-PCITURE-Background/Animation-Start -->
+
+        <div class="profile-animation-wrapper">
+    <div class="orbit-container">
+        <div class="orbit-glow-bg"></div>
+        
+        <img src="image/monir.jpeg"MD MONIRUJJAMAN" class="orbit-profile-pic">
+
+        <div class="orbit-ring orbit-ring-1"></div>
+        <div class="orbit-ring orbit-ring-2"></div>
+        <div class="orbit-ring orbit-ring-3"></div>
+    </div>
+</div>
     </section>
+
+     <!-- PROTFOLIO-PCITURE-Background/Animation-End -->
+
+    <!-- About me-section-Start -->
 
     <section class="about" id="about">
         <h2 class="heading">About <span>Me</span></h2>
@@ -200,23 +233,118 @@ I love solving problems and turning a blank canvas into a functional, revenue-ge
         </div>
     </section>
 
-    <section class="skills" id="skills">
-        <h2 class="heading">Technical <span>Skills</span></h2>
-        <div class="slider">
-            <div class="slide-track">
-                <div class="slide"><i class="fab fa-react"></i><p>React</p></div>
-                <div class="slide"><i class="fab fa-node-js"></i><p>Node.js</p></div>
-                <div class="slide"><i class="fab fa-js"></i><p>JavaScript</p></div>
-                <div class="slide"><i class="fas fa-database"></i><p>MongoDB</p></div>
-                <div class="slide"><i class="fab fa-html5"></i><p>HTML5</p></div>
-                <div class="slide"><i class="fab fa-css3-alt"></i><p>CSS3</p></div>
-                <div class="slide"><i class="fab fa-react"></i><p>React</p></div>
-                <div class="slide"><i class="fab fa-node-js"></i><p>Node.js</p></div>
-                <div class="slide"><i class="fab fa-js"></i><p>JavaScript</p></div>
-                <div class="slide"><i class="fas fa-database"></i><p>MongoDB</p></div>
+    <!-- Abouttme-section-End -->
+
+<!-- SLIDER-ANIMATION-Start -->
+ 
+   <section class="skills" id="skills">
+    <h2 class="heading">Technical <span>Skills</span></h2>
+    
+    <div class="slider">
+        <div class="slide-track left-track">
+            <div class="slide"><i class="fab fa-react"></i><p>React</p></div>
+            <div class="slide"><i class="fab fa-node-js"></i><p>Node.js</p></div>
+            <div class="slide"><i class="fab fa-js"></i><p>JavaScript</p></div>
+            <div class="slide"><i class="fas fa-database"></i><p>MongoDB</p></div>
+            <div class="slide"><i class="fab fa-html5"></i><p>HTML5</p></div>
+            <div class="slide"><i class="fab fa-css3-alt"></i><p>CSS3</p></div>
+            <div class="slide"><i class="fab fa-react"></i><p>React</p></div>
+            <div class="slide"><i class="fab fa-node-js"></i><p>Node.js</p></div>
+        </div>
+    </div>
+
+    <div class="slider">
+        <div class="slide-track right-track">
+            <div class="slide"><i class="fab fa-react"></i><p>React</p></div>
+            <div class="slide"><i class="fab fa-node-js"></i><p>Node.js</p></div>
+            <div class="slide"><i class="fab fa-js"></i><p>JavaScript</p></div>
+            <div class="slide"><i class="fas fa-database"></i><p>MongoDB</p></div>
+            <div class="slide"><i class="fab fa-html5"></i><p>HTML5</p></div>
+            <div class="slide"><i class="fab fa-css3-alt"></i><p>CSS3</p></div>
+            <div class="slide"><i class="fab fa-react"></i><p>React</p></div>
+            <div class="slide"><i class="fab fa-node-js"></i><p>Node.js</p></div>
+        </div>
+    </div>
+</section>
+
+<!-- SLIDER-ANIMATION-End -->
+
+<!-- review slider start -->
+
+<section class="review-section">
+    <div class="container">
+        <h4 class="sub-title">What My <span style="color: white;">Clients Say</span></h4>
+        <h2 class="main-title">Client <span class="textcolors">Reviews</span> </h2>
+
+        <div class="slider-wrapper">
+            <div class="review-slider">
+                <div class="review-card">
+                    <div class="client-info">
+                       <img src="image/female image.jpg" alt="Client">
+                        <div class="details">
+                            <h3>Riya khan</h3>
+                            <p>CEO, Tech Solution</p>
+                        </div>
+                    </div>
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">Monirujjaman is an excellent developer. His work on our frontend was professional and delivered on time. Highly recommended!</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="client-info">
+                       <img src="image/male.jpg" alt="Client">
+                        <div class="details">
+                        <h3>Micele smith</h3>
+                            <p>Founder, Startup Hub</p>
+                        </div>
+                    </div>
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">Great communication and high-quality code. He really understood our requirements for the database design.</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="client-info">
+                       <img src="image/male 2.jpg" alt="Client">
+                        <div class="details">
+                            <h3>Michael Tan</h3>
+                            <p>Manager, Global IT</p>
+                        </div>
+                    </div>
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">The full-stack application Monir built for us is fast, secure, and very easy to use. Exceptional work!</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="client-info">
+                        <img src="image/female image.jpg" alt="Client">
+                        <div class="details">
+                            <h3>Anika Rahman</h3>
+                            <p>Marketing Head, Creative Agency</p>
+                        </div>
+                    </div>
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">Working with MD Monirujjaman was a pleasure. He made our portfolio website look modern and responsive.</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="client-info">
+                       <img src="image/male 2.jpg" alt="Client">
+                        <div class="details">
+                            <h3>John Doe</h3>
+                            <p>CEO, Tech Solution</p>
+                        </div>
+                    </div>
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">Monirujjaman is an excellent developer. His work on our frontend was professional and delivered on time!</p>
+                </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
+<!-- review slider end -->
+
+<!-- project-section-start -->
 
     <section class="projects" id="projects">
         <h2 class="heading">My <span>Projects</span></h2>
@@ -248,6 +376,209 @@ I love solving problems and turning a blank canvas into a functional, revenue-ge
         </div>
     </section>
 
+    <!-- project-section-End -->
+
+
+    <!-- PROJECT-STATISTICS-START -->
+<section class="stats-wrapper">
+    <div class="stats-title-area">
+        <h1 class="section-title">Project <span style="color: #00abf0;">Statistics</span></h1>
+    </div>
+
+    <div class="stats-container">
+        <div class="stat-card">
+            <h2 class="counter" data-target="10">0</h2>
+            <p>PROJECTS COMPLETED</p>
+        </div>
+        <div class="stat-card">
+            <h2 class="counter" data-target="5">0</h2>
+            <p>HAPPY CLIENTS</p>
+        </div>
+        <div class="stat-card">
+            <h2 class="counter" data-target="500">0</h2>
+            <p>COMMITS ON GITHUB</p>
+        </div>
+    </div>
+</section>
+
+     <!-- PROJECT-STATISTICS-END -->
+    
+ <!-- service section start -->
+
+   <section class="services-section" id="servicebar">
+    <div class="container">
+        <h4 class="sub-title"> <span class="textcolors">What</span> I Offer</h4>
+        <h2 class="main-title">My <span class="textcolors">Services</span> </h2>
+
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="icon-box">
+                    <i class="fas fa-window-maximize"></i>
+                </div>
+                <h3>Frontend Development</h3>
+                <p>Building responsive and interactive user interfaces using modern frontend technologies like React and Angular.</p>
+                <ul>
+                    <li>Responsive Design</li>
+                    <li>UI/UX Implementation</li>
+                    <li>State Management</li>
+                    <li>Performance Optimization</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <div class="icon-box">
+                    <i class="fas fa-server"></i>
+                </div>
+                <h3>Backend Development</h3>
+                <p>Creating robust server-side applications using Node.js, Express, and other backend technologies.</p>
+                <ul>
+                    <li>API Development</li>
+                    <li>Authentication</li>
+                    <li>Server Configuration</li>
+                    <li>Performance Optimization</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <div class="icon-box">
+                    <i class="fas fa-database"></i>
+                </div>
+                <h3>Database Design</h3>
+                <p>Designing and optimizing database schemas and queries for MongoDB and other database systems.</p>
+                <ul>
+                    <li>Schema Design</li>
+                    <li>Query Optimization</li>
+                    <li>Data Modeling</li>
+                    <li>Database Management</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <div class="icon-box">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Full Stack Development</h3>
+                <p>End-to-end development of web applications, from designing responsive UIs to building robust backends.</p>
+                <ul>
+                    <li>MERN Stack</li>
+                    <li>Full Application Lifecycle</li>
+                    <li>Deployment</li>
+                    <li>Maintenance</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+<!-- service section end -->
+
+<!-- Blog post section start -->
+
+<section class="blog-section" id="blog">
+    <div class="container">
+        <h4 class="sub-title"> <span style="color: #00abf0;">What</span> I Write</h4>
+        <h2 class="main-title">Latest <span class="textcolors"> Blog Post</span> </h2>
+
+        <div class="blog-grid">
+            <div class="blog-card">
+                <div class="blog-img">
+                    <img src="image/desktop.webp" alt="VS Code vs IntelliJ">
+                </div>
+                <div class="blog-content">
+                    <span class="blog-date">Sep 14, 2025</span>
+                    <h3>Why I Switched Back From VS Code to IntelliJ IDEA</h3>
+                    <p>In this blog post, I'll share the reasons why I transitioned back to using IntelliJ as my primary IDE.</p>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-img">
+                    <img src="image/laptop.webp" alt="MySQL with Nuxt">
+                </div>
+                <div class="blog-content">
+                    <span class="blog-date">Aug 22, 2025</span>
+                    <h3>Connecting a MySQL Database in Nuxt with Drizzle ORM</h3>
+                    <p>Explore how to seamlessly integrate MySQL databases into your Nuxt applications using Drizzle ORM.</p>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-img">
+                    <img src="image/world.webp" alt="Edge-Side Rendering">
+                </div>
+                <div class="blog-content">
+                    <span class="blog-date">Jun 6, 2025</span>
+                    <h3>Implementing Edge-Side Rendering (ESR) in Nuxt 3+</h3>
+                    <p>Discover how Edge-Side Rendering can be employed to improve performance by rendering content at the edge.</p>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-img">
+                    <img src="image/laptop.webp" alt="Nuxt Starter Kit">
+                </div>
+                <div class="blog-content">
+                    <span class="blog-date">Jun 1, 2025</span>
+                    <h3>Why I Developed My Own Nuxt Starter Kit for SaaS</h3>
+                    <p>Discover the reasons behind the development of my unique Nuxt starter kit tailored for SaaS products.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Blog post section end -->
+
+            <!-- common question start -->
+
+<section class="faq-container">
+    <h2 class="faq-title">Common <span>Questions</span></h2>
+
+    <div class="faq-item" onclick="toggleFaq(this)">
+        <span class="animated-border"></span>
+        <div class="faq-question">
+            What technologies do you use for web development? <span>+</span>
+        </div>
+        <div class="faq-answer">
+            <p>I specialize in the MERN stack (MongoDB, Express.js, React, Node.js). I also use modern tools like Tailwind CSS and Redux.</p>
+        </div>
+    </div>
+
+    <div class="faq-item" onclick="toggleFaq(this)">
+        <span class="animated-border"></span>
+        <div class="faq-question">
+            Will my website be mobile-friendly and responsive? <span>+</span>
+        </div>
+        <div class="faq-answer">
+            <p>Absolutely! All the websites I develop are fully responsive, meaning they will look and function perfectly on all devices.</p>
+        </div>
+    </div>
+
+    <div class="faq-item" onclick="toggleFaq(this)">
+        <span class="animated-border"></span>
+        <div class="faq-question">
+            How long does it take to complete a project? <span>+</span>
+        </div>
+        <div class="faq-answer">
+            <p>A standard landing page might take 3-5 days, while a full-stack web application can take 2-3 weeks.</p>
+        </div>
+    </div>
+
+    <div class="faq-item" onclick="toggleFaq(this)">
+        <span class="animated-border"></span>
+        <div class="faq-question">
+            Do you provide SEO and performance optimization? <span>+</span>
+        </div>
+        <div class="faq-answer">
+            <p>Yes, I write clean, semantic code and optimize assets to ensure your website loads fast and ranks better on Google.</p>
+        </div>
+    </div>
+</section>
+            <!-- common question end -->
+
+<!-- contact-info-wrapper-start -->
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me!</span></h2>
         
@@ -263,15 +594,28 @@ I love solving problems and turning a blank canvas into a functional, revenue-ge
                 </div>
                 <div class="info-card">
                     <i class="fas fa-envelope"></i>
-                    <p style="font-size: 11px;text-align: center;"t>contact.mdmonirujjaman7878@gmail.com</p>
+                    <p style="font-size: 1.3rem;text-align: center;"t>contact.mdmonirujjaman7878@gmail.com</p>
                 </div>
             </div>
+
+            <!-- contact-info-wrapper End -->
+
+            <!-- contact-from-start -->
 
             <div class="contact-form-card">
                 <form action="#">
                     <div class="input-box">
                         <input type="text" placeholder="Full Name" required>
                         <input type="email" placeholder="Email Address" required>
+                        <br>
+                       
+                        <select name="service" required class="service-select">
+        <option value="" disabled selected>Select the service you need</option>
+        <option value="starter">Starter: Frontend Development</option>
+        <option value="pro">Pro: Database Design</option>
+        <option value="advanced">Advanced: Backend Development</option>
+        <option value="elite">Elite: Full Stack Development</option>
+    </select> 
                     </div>
                     <textarea cols="30" rows="5" placeholder="Your Message" required></textarea>
                     <button type="submit" class="btn">Send Message</button>
@@ -279,18 +623,93 @@ I love solving problems and turning a blank canvas into a functional, revenue-ge
             </div>
         </div>
     </section>
-    <div style="text-align: center;" class="social-media">
+    <!-- contact-fromm-End -->
+
+    <!-- <div style="text-align: center;" class="social-media">
                 <a href="#"><i class="fab fa-facebook-f icon-wold"></i></a>
                 <a href="#"><i class="fab fa-github icon-wold"></i></a>
                 <a href="#"><i class="fab fa-linkedin-in icon-wold"></i></a>
-            </div>
+            </div> -->
 
-    <footer class="footer" style="text-align: center;">
-        <p>Copyright &copy; 2026  MD MONIRUJJAMAN. All Right Reserved </p>
-    </footer>
+<!-- footer section -->
+
+ <footer class="main-footer">
+    <div class="footer-container">
+        
+        <div class="footer-section branding">
+            <h2 class="footer-name">MD MONIRU<span style="color: #00abf0;">JJAMAN</span></h2> <p style="font-size: 17px;">Full Stack Web Developer</p>
+            <p style="font-size: 15px;">📍 Khulna-9100, Bangladesh</p>
+        </div>
+
+        <div class="footer-section links">
+            <h3 style="font-size: 24px;">Quick Links</h3>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section connect">
+            <h3 style="font-size: 24px;">Connect</h3>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+        <div class="legal-container">
+        <a href="privacy.html" class="legal-link">Privacy Policy</a>
+        <a href="terms.html" class="legal-link">Terms & Conditions</a>
+    </div>
+        
+    </div>
+
+    <div class="footer-bottom">
+        <p>Copyright © 2026 All rights reserved by MD MONIRUJJAMAN</p>
+        
+    </div>
+</footer>
+
+<!-- footer section End -->
+
+<!-- ai bot start  -->
+<div id="chat-widget">
+    <div id="chat-button" onclick="toggleChat()">
+        
+        <img src="image/Aethera Ai.png" alt="ai logo" id="bot-icon">
+        <span id="notification-dot" class="hidden"></span>
+    </div>
+
+    <div id="chat-window" class="hidden">
+        <div class="chat-header">
+            <div class="header-info">
+                <img src="image/Aethera Ai.png" alt="AI">
+                <div class="status-info">
+                    <span class="bot-name">Aethera Assistant</span>
+                    <span class="status">Online</span>
+                </div>
+            </div>
+            <button onclick="closeChatWindow()" id="close-chat">&times;</button>
+        </div>
+        
+        <div id="chat-body">
+            <div class="msg ai-msg">Hi! আমি মনিরুজ্জামানের AI এসিস্ট্যান্ট। আপনি চাইলে বাংলা, English বা বাংলিশে আমার সাথে কথা বলতে পারেন। কীভাবে সাহায্য করতে পারি?</div>
+        </div>
+
+        <div class="chat-footer">
+            <input type="text" id="user-input" placeholder="Type a message..." autocomplete="off">
+            <button id="send-btn" onclick="sendMessage()">
+                <svg viewBox="0 0 24 24" width="24" height="24"><path fill="#00abf0" d="M2,21L23,12L2,3V10L17,12L2,14V21Z" /></svg>
+            </button>
+        </div>
+    </div>
+</div>
+<!-- ai bot start  -->
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="script.js"></script>
-
 </body>
 </html>
